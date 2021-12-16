@@ -1,0 +1,83 @@
+html{
+    background-color: navajowhite;
+}
+.Top{
+    text-align: center;
+}
+.game{
+    display: grid;
+    margin-left: 35%;
+    margin-right: 35%;
+    grid:
+    'a b c'
+    'd e f'
+    'g h i';
+}
+#s1{
+    grid-area: a;
+    padding: 10%;
+    height: 100px;
+    background-color: navajowhite;
+}
+#s2{
+    grid-area: b;
+    padding: 10%;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    height: 10 0px;
+    background-color: navajowhite;
+}
+#s3{
+    grid-area: c;
+    padding: 10%;
+    height: 100px;
+    background-color: navajowhite;
+}
+#s4{
+    grid-area: d;
+    padding: 10%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    height: 100px;
+    background-color: navajowhite;
+}
+#s5{
+    grid-area: e;
+    padding: 10%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black; 
+    height: 100px;
+    background-color: navajowhite;
+
+}
+#s6{
+    grid-area: f;
+    padding: 10%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    height: 100px;
+    background-color: navajowhite;
+}
+#s7{
+    grid-area: g;
+    padding: 10%;
+    height: 100px;
+    background-color: navajowhite;
+}
+#s8{
+    grid-area: h;
+    padding: 10%;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    height: 100px;
+    background-color: navajowhite;
+}
+#s9{
+    grid-area: i;
+    padding: 10%;
+    height: 100px;
+    background-color: navajowhite;
+}
+
